@@ -1,0 +1,3 @@
+{
+    "dotnet.defaultSolution": "EFCore.Sqlite.NodaTime.sln"
+}

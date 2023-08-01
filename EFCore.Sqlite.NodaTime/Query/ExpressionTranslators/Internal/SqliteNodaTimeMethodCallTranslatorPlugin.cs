@@ -11,6 +11,7 @@ namespace Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionTranslators.Inter
             {
                 new SqliteNodaTimeDateDiffFunctionsTranslator(sqlExpressionFactory),
                 new SqliteNodaTimeMethodCallTranslator(sqlExpressionFactory),
+                new SqliteNodaTimeInstantTranslator(sqlExpressionFactory),
             };
         }
 
